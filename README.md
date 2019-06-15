@@ -38,6 +38,7 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
 * **Glow** - render glow effect on entities
     * **Enabled** - on / off master switch
     * **Health based** - color is based on player's hp
+    * **Rainbow** -
     * **Thickness** - outline thickness
     * **Alpha** - outline alpha
     * **Style** - glow style [*0*-*3*]
@@ -51,6 +52,8 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
 * **Chams** - color player models to improve visibility
     * **Enabled** - on / off master switch
     * **Health based** - color is based on player's hp
+    * **Rainbow** -
+    * **Blinking** -
     * **Alpha** - material transparency
     * **Material** - material applied to model
     * **Wireframe** - render triangle mesh instead of solid material
@@ -66,6 +69,11 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
     * **Snaplines** - draw snaplines to players
     * **Box** - draw 2D box over player model
     * **Name** - draw player name
+    * **Health** -
+    * **Health bar** -
+    * **Armor** -
+    * **Armor bar** -
+    * **Money** -
     * **Head dot** - draw dot on player's head
 
 * **Visuals** - miscellaneous visual options
@@ -80,12 +88,18 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
     * **No smoke** - remove smoke grenade effect
     * **No blur** - remove blur
     * **No scope overlay** - remove black overlay while scoping
+    * **No grass** - 
     * **Wireframe smoke** - render smoke skeleton instead of particle effect
+    * **Thirdperson [ key ]** -
    * **Flash reduction** - reduces flashbang grenade effect [*0*-*100*%] (0 - full flash, 100 - no flash)
     * **View model FOV** - change view model FOV [*-60*-*0*-*60*] (0 - actual view model, negative values - decreased view model, positive values - increased view model)
+    * **Fov** - 
+    * **FarZ** -
     * **Brightness** - control game brightness [*0.0*-*1.0*]
     * **Skybox** - change sky(box)
     * **World color** - set world material ambient light color
+    
+    * **Skin changer** - 
 
 * **Misc** - miscellaneous features
     * **Auto strafe** - automatically strafe in air following mouse movement
@@ -103,6 +117,11 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
     * **Spectator list** - show nicknames of players spectating you
     * **Watermark** - show cheat name in upper-left screen corner and fps & ping in upper right corner.
     * **Fix animation LOD** - 
+    * **Prepare revolver [ key ]** - 
+    * **Fast plant** - 
+    * **Hit sound** - 
+    * **Kill message** - 
+    * **Choked packets +/- [*0*-*64*]** - 
 
 * **Config** - configuration system based on binary serialization
     * **Create config** - create new configuration file
