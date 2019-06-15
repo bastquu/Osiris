@@ -48,7 +48,10 @@ void Misc::spectatorList() noexcept
         static unsigned font = interfaces.surface->createFont();
         static bool init = interfaces.surface->setFontGlyphSet(font, "Tahoma", 12, 700, 0, 0, 128);
         interfaces.surface->setTextFont(font);
-        interfaces.surface->setTextColor(51, 153, 255, 255);
+        interfaces.surface->setTextColor(sinf(0.6f * memory.globalVars->realtime) * 127 + 128,
+                                         sinf(0.6f * memory.globalVars->realtime + 2.0f) * 127 + 128,
+                                         sinf(0.6f * memory.globalVars->realtime + 4.0f) * 127 + 128,
+                                         255.0f);
 
         const auto [width, height] = interfaces.surface->getScreenSize();
 
