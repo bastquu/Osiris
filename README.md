@@ -98,8 +98,8 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
     * **Brightness** - control game brightness [*0.0*-*1.0*]
     * **Skybox** - change sky(box)
     * **World color** - set world material ambient light color
-    
-    * **Skin changer** - 
+
+* **Skin changer**-
 
 * **Misc** - miscellaneous features
     * **Auto strafe** - automatically strafe in air following mouse movement
