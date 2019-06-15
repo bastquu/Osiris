@@ -93,13 +93,13 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
     * **Thirdperson [ key ]** -
    * **Flash reduction** - reduces flashbang grenade effect [*0*-*100*%] (0 - full flash, 100 - no flash)
     * **View model FOV** - change view model FOV [*-60*-*0*-*60*] (0 - actual view model, negative values - decreased view model, positive values - increased view model)
-    * **Fov** - 
-    * **FarZ** -
+    * **Fov** - [*-60*-*60*]
+    * **FarZ** - [*0*-*2000*]
     * **Brightness** - control game brightness [*0.0*-*1.0*]
     * **Skybox** - change sky(box)
     * **World color** - set world material ambient light color
 
-* **Skin changer**-
+* **Skin changer** -
 
 * **Misc** - miscellaneous features
     * **Auto strafe** - automatically strafe in air following mouse movement
@@ -121,7 +121,7 @@ Free open-source training software / cheat for **Counter-Strike: Global Offensiv
     * **Fast plant** - 
     * **Hit sound** - 
     * **Kill message** - 
-    * **Choked packets +/- [*0*-*64*]** - 
+    * **Choked packets +/-** - [*0*-*64*]
 
 * **Config** - configuration system based on binary serialization
     * **Create config** - create new configuration file
